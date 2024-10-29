@@ -1,0 +1,99 @@
+/* Osnovni stilovi */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0e6d6;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+header h1 {
+    font-weight: 500;
+    color: #b5651d;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Stilizacija popisa */
+ul {
+    list-style: disc inside;
+    margin-left: 20px;
+    padding: 0;
+}
+
+ol {
+    list-style: decimal inside;
+    margin-left: 20px;
+    padding: 0;
+}
+
+/* Stilizacija elemenata unutar liste */
+li {
+    margin-bottom: 10px;
+}
+
+/* Složeni selektori */
+section h2 {
+    font-weight: 500;
+    color: #a0522d;
+    margin-top: 30px;
+    text-align: left;
+}
+
+/* Opći stil */
+section p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+/* Stil za paragraf s nagnutim slovima */
+.italic-text {
+    font-style: italic;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    text-align: justify;
+    font-size: 1rem;
+}
+
+/* Tipografski stilovi */
+em {
+    font-style: italic;
+    color: #8b4513;
+}
+
+strong {
+    font-weight: bold;
+    color: #b5651d;
+}
+
+sub {
+    font-size: 0.8em;
+    vertical-align: sub;
+}
+
+sup {
+    font-size: 0.8em;
+    vertical-align: super;
+}
+
+/* Stil za oznaku span unutar teksta */
+span {
+    font-weight: bold;
+    color: #5e3d1e;
+}
+
+/* Stil za plutajući paragraf */
+.float-text {
+    float: right;
+    width: 97%; /* Širina elementa */
+    margin: 10px; /* Razmak oko plutajućeg teksta */
+}
+
+
+.highlight {
+    background-color: #f7d6b6;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
